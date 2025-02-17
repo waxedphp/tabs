@@ -1,0 +1,76 @@
+    /* Example Styles for Demo */
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-menu { margin: 0; padding: 0; }
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-tab {
+      display: inline-block;
+      zoom:1;
+      *display:inline;
+      background: #eee;
+      border: solid 1px #999;
+      border-bottom: none;
+      -moz-border-radius: 4px 4px 0 0;
+      -webkit-border-radius: 4px 4px 0 0;
+      margin:0px;
+    }
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-tab a {
+      font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none;
+      text-decoration: none;
+    }
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-tab a:hover {
+      text-decoration: underline;
+    }
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-tab.active {
+      background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666;
+    }
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-tab a.active {
+      font-weight: bold;
+    }
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-panel {
+      background: #fff;
+      border-style: solid;
+      border-color: #666;
+      border-width: 1px;
+      margin: 0px;
+      padding: 20px 10px 20px 10px;
+      -moz-border-radius: 0 4px 4px 4px;
+      -webkit-border-radius: 0 4px 4px 4px;
+    }
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-panel.no-border {
+      background: #fff;
+      border-style: solid;
+      border-color: #666;
+      border-width: 1px 0px 0px 0px;
+      margin: 0px;
+      padding: 20px 10px 20px 10px;
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
+    }
+    .waxed-tabs.waxed-tabs-rounded .waxed-tabs-panel { margin-bottom: 10px; }
+
+    .waxed-tabs.waxed-tabs-simple .waxed-tabs-menu { margin: 0; padding: 0; }
+    .waxed-tabs.waxed-tabs-simple .waxed-tabs-tab {
+      display: inline-block;
+      zoom:1;
+      *display:inline;
+      /*
+      border: solid 1px #999;
+      border-bottom: none;
+      */
+      margin:0px;
+      border-color: #999;
+      border-style: none none solid none;
+      border-bottom-width: 1px;
+    }
+    .waxed-tabs.waxed-tabs-simple .waxed-tabs-tab a {
+      display: block;
+      padding: 5px 10px 5px 10px;
+      outline: none;
+      text-decoration: none;
+    }
+    .waxed-tabs.waxed-tabs-simple .waxed-tabs-tab:hover {
+
+      border-bottom-width: 2px;
+    }
+    .waxed-tabs.waxed-tabs-simple .waxed-tabs-tab.active {
+
+      border-bottom-width: 2px;
+    }
