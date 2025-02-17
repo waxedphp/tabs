@@ -1,6 +1,6 @@
-# Apexcharts
+# Tabs
 
-Modern & Interactive Open-source Charts - within WaxedPHP environment.
+A minimalist tabs - within WaxedPHP environment.
 
 This package contains helper plugin functionality for WaxedPHP.
 All required third party sources will be downloaded to npm during composer installation.
