@@ -3,7 +3,7 @@
     .waxed-tabs.waxed-tabs-rounded .waxed-tabs-tab {
       display: inline-block;
       zoom:1;
-      *display:inline;
+      display:inline;
       background: #eee;
       border: solid 1px #999;
       border-bottom: none;
@@ -50,7 +50,7 @@
     .waxed-tabs.waxed-tabs-simple .waxed-tabs-tab {
       display: inline-block;
       zoom:1;
-      *display:inline;
+      display:inline;
       /*
       border: solid 1px #999;
       border-bottom: none;
